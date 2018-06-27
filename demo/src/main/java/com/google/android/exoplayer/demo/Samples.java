@@ -45,6 +45,12 @@ import java.util.Locale;
 
   }
 
+  public static final Sample[] BRIGHTCOVE = new Sample[] {
+          new Sample("Brightcove DRM",
+                  "https://manifest.stage.boltdns.net/manifest/v1/dash/live-baseurl/bccenc/alai/bf18e992-7785-44e0-95cd-35cf74b90f57/2s/manifest.mpd?fastly_token=NWIwODIyMTdfMzY5OThlZTlhNzUyMzM0ZDU1MjU1NzZlZjNlOWY4YTljMmUyMzc0Yzc3MDk1NThmYjVlYjRmMDI0YTk1OWU0MQ%3D%3D",
+                  Util.TYPE_DASH)
+  };
+
   public static final Sample[] YOUTUBE_DASH_MP4 = new Sample[] {
     new Sample("Google Glass (MP4,H264)",
         "http://www.youtube.com/api/manifest/dash/id/bf5bb2419360daf1/source/youtube?"

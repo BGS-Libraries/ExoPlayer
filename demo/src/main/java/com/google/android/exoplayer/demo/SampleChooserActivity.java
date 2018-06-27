@@ -42,7 +42,11 @@ public class SampleChooserActivity extends Activity {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.sample_chooser_activity);
     final List<SampleGroup> sampleGroups = new ArrayList<>();
-    SampleGroup group = new SampleGroup("YouTube DASH");
+    SampleGroup group = new SampleGroup("Brightcove DRM");
+    group.addAll(Samples.BRIGHTCOVE);
+    sampleGroups.add(group);
+
+    group = new SampleGroup("YouTube DASH");
     group.addAll(Samples.YOUTUBE_DASH_MP4);
     group.addAll(Samples.YOUTUBE_DASH_WEBM);
     sampleGroups.add(group);
