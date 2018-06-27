@@ -25,6 +25,17 @@
     ]
   },
   {
+    "name": "Brightcove Samples",
+    "samples": [
+      {
+        "name": "Rogers Live",
+        "uri": "https://citylive.akamaized.net/ed7865b2-59c6-4ce2-bb63-eb165b3ca348/20b7b967-04c7-473a-a96c-322fee88f826.ism/manifest(format=mpd-time-csf)?__nn__=5300563031001&hdnts=st=1530118800~exp=1530122400~acl=/*~hmac=af69daabee0a28d2afbcc7bed52457e7500a246a32ee3d649bab87e1f3d4dc35",
+        "drm_scheme": "widevine",
+        "drm_license_url": "https://citytvlivedrmprod.keydelivery.canadaeast.media.azure.net/Widevine/?kid=3c6fb5f8-62e1-4d19-b737-77ca88637b5e"
+      }
+    ]
+  },
+  {
     "name": "Widevine DASH Policy Tests (GTS)",
     "samples": [
       {
